@@ -6,5 +6,6 @@ public class pikachu {
         ..
         ..
 
+		System.out.println("Pika ! Pika !");
 	}
 }
