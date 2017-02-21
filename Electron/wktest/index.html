@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>wkhtmltopdf client</title>
+  </head>
+  <body>
+<script src="./renderer.js" charset="utf-8"></script>
+ <p> 
+    <!-- 用于文件上传的表单元素 --> 
+    <button id="selectXPR" onclick="selectXPR();">1.選取.xpr專案檔</button>
+    <button id="selectHTML" onclick="selectHTML();">2.選取.html網頁檔</button>
+    <button id="startProcess" onclick="startProcess();">3.開始產生PDF步驟</button>
+    <button id="result" onclick="openFile();">4.開啟輸出的pdf檔</button>
+    <div id="selectedFile" style="height:100px;border-width:1px;border-style:solid;margin-top:15px"></div>
+ </p> 
+ <div id="nowStatus" style="height:160px;border-width:1px;border-style:solid;margin-top:20px"></div>
+  </body>
+
+
+
+<!--  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>-->
+</html>
