@@ -1,5 +1,5 @@
 # 部署
-# 設定properties 123
+# 設定properties 1234
 在liferay目錄底下創建一個portal-ext.properties，設定參數讓html以inline方式開啟(預設是download)
 
     mime.types.content.disposition.inline=html
